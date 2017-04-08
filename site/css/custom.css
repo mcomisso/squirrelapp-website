@@ -55,7 +55,7 @@ svg {margin-top:20px; }
 
 @media (min-width:300px) and (max-width:600px) {
     .iphone img {
-       width: 55%;
+       width: 65%;
     position:relative;
    right: inherit;
         top: inherit;
