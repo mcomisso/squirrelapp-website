@@ -1,78 +1,80 @@
 body {
-    background-color:#fafafa;
+    background-color: #fafafa;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
-
-
-
 .dark-blue {
-   
-     background-color: #2E7A96;
+    background-color: #2E7A96;
+}
 
-    }
-
-#get-the-app h1, h2 {
+#get-the-app h1,
+h2 {
     font-family: 'Anonymous Pro', monospace;
     color: #fefefe;
-      line-height: 1.3rem;
+    line-height: 1.3rem;
 }
+
 #get-the-app h2 {
     font-size: 2.2rem;
-  
 }
 
 .logo img {
-     width:13%;
+    width: 13%;
 }
+
 .iphone img {
     position: absolute;
     right: 20%;
     top: 100px;
-    
 }
 
-.row {padding-top:40px; }
+.row {
+    padding-top: 40px;
+}
 
+svg {
+    margin-top: 20px;
+}
 
-svg {margin-top:20px; }
-.iphone img {width: 20%;}
+.iphone img {
+    width: 20%;
+}
 
 @media (min-width:600px) and (max-width:980px) {
     .iphone img {
-       width: 25%;
-    position: absolute;
-    right: 10%;
-    top: 30%;
-    
-      }
-    .row {padding-top:20px; }
-    
+        width: 25%;
+        position: absolute;
+        right: 10%;
+        top: 30%;
+    }
+    .row {
+        padding-top: 20px;
+    }
     .logo img {
-     width:30%;
-    }}
+        width: 30%;
+    }
+}
 
 @media (min-width:300px) and (max-width:600px) {
     .iphone img {
-       width: 65%;
-    position:relative;
-   right: inherit;
+        width: 65%;
+        position: relative;
+        right: inherit;
         top: inherit;
         margin-top: 40px;
-     /*  margin: 40px 20%;*/
-    
-      
-}
-    .row {padding-top:20px; }
-    
+        /*  margin: 40px 20%;*/
+    }
+    .row {
+        padding-top: 20px;
+    }
     .logo img {
-     width:30%;
-    }}
-
+        width: 30%;
+    }
+}
 
 @media (min-width:300px) and (max-width:329px) {
     #get-the-app h2 {
-    font-size: 31px;
-  
-    }}
+        font-size: 31px;
+    }
+}
